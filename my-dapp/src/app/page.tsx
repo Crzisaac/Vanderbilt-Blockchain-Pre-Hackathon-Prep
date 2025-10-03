@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
-import { readMessage } from "../../utils/contract"; // <-- import your helper
+import { readMessage } from "./utils/contract";
 import Image from "next/image";
 
 export default function Home() {
